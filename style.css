@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');/*fonte do titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');/*fonte do paragráfo*/
+
+/*reset básico*/
+*{
+    box-sizing: border-box;
+    margin: 0%; /*espaçamento externo*/
+    padding: 0%; /*espaçamento interno*/
+}
+
+/*modificar o corpo*/
+body{
+    text-align: center; /*alinhar texto*/
+    background: #CBB39C; /*cor de fundo da página*/
+    background: linear-gradient(90deg,rgba(203, 179, 156, 1) 0%, rgba(35, 31, 26, 1) 25%, rgba(84, 71, 59, 1) 50%, rgba(98, 101, 84, 1) 75%, rgba(94, 91, 92, 1) 100%);
+
+}
+
+/*definir a cor da letra, espaçamento interno e a fonte do titulo do header*/
+header{
+    color: black; /*cor da letra*/
+    padding: 20px; /*espaçamento interno*/
+    font-family: 'Bebas Neue'; /*familia da fonte*/
+    font-style: normal; /*estilo da fonte*/
+    font-weight: 400;
+    font-display: swap;
+    font-size: 55px; /*tamanho da fonte*/ 
+}
+
+/*alterar o estilo do navegador da página*/
+nav a{
+    text-decoration: none; /*tirar a decoração do texto (linha azul na barra de navegação)*/
+    color: black; /*cor da letra*/
+    display: inline-block; /*deixa os itens lado a lado*/
+    margin: 20px; /*espaçamento externo*/
+    padding: 10px 20px; /*espaçamento interno*/
+    background-color: #62655494; /*cor de fundo*/
+    border-radius: 10px; /*altera a borda*/
+
+}
+
+/*alterar as configurações do navegador da página*/
+nav a:hover{
+    background-color: #CBB39C;/*alterar a cor de fundo quando mouse estiver em cima*/
+    color: white; /*alterar a cor da fonte quando o mouse estiver em cima*/
+    font-size: 15px; /*alterar o tamanho da fonte quando o mouse estiver em cima*/
+}
+
+
+/*article dos cards dos personagens*/
+.card{ 
+    display: inline-block; /*alinhar as imagens uma do lado da outra*/
+    width: 250px; /*tamanho do card*/
+    margin: 15px; /*espaçamento externo*/
+    padding: 10px; /*espaçamento interno*/
+    background-color: #62655494; /*cor de fundo do card*/
+    border-radius: 10px; /*altera a borda*/
+
+}
+
+/*estilizar o card de imagem */
+.card img{
+    width: 100%; /*ocupar a mesma largura do card*/
+    height: 200px; /*alterar altura da imagem*/
+    border-radius: 10px; /*altera a borda*/
+    object-fit: cover; /*ajustar a imagem sem distorcer*/
+}
+
+/*adicionar imagem no fundo do card*/
+#personagens{
+    background-image: url(./imagens/banner.png);
+    
+    /*alterar o tamanho da imagem = background-size (cover ou contain) */
+    background-size: cover;
+
+    /*não repetir a imagem = background-repeat no-repeat*/
+    background-repeat: no-repeat;
+
+    /*mudar a posição da imagem = background-position */
+    background-position: center;
+}
+
+#personagens h2{
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: #CBB39C;
+}
+
+#temporadas{
+    margin: 30px;
+    padding: 15px;
+
+}
+
+.temporadas{
+    display: inline-block; /*alinhar as imagens uma do lado da outra*/
+    width: 450px; /*tamanho do card*/
+    margin: 15px; /*espaçamento externo*/
+    padding: 10px; /*espaçamento interno*/
+    background-color: #62655494; /*cor de fundo do card*/
+    border-radius: 10px; 
+}
+
+.temporadas img{
+    width: 100%; /*ocupar a mesma largura do card*/
+    height: 400px; /*alterar altura da imagem*/
+    border-radius: 10px; /*altera a borda*/
+    object-fit: cover; /*ajustar a imagem sem distorcer*/
+
+}
