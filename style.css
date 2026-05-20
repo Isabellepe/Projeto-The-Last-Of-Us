@@ -67,7 +67,7 @@ nav a:hover{
 }
 
 /*adicionar imagem no fundo do card*/
-#personagens{
+#personagensprin{
     background-image: url(./imagens/banner.png);
     
     /*alterar o tamanho da imagem = background-size (cover ou contain) */
@@ -89,8 +89,8 @@ nav a:hover{
 }
 
 #temporadas{
-    margin: 30px;
-    padding: 15px;
+    margin: 30px;/*espaçamento externo*/
+    padding: 15px;/*espaçamento interno*/
 
 }
 
@@ -109,4 +109,8 @@ nav a:hover{
     border-radius: 10px; /*altera a borda*/
     object-fit: cover; /*ajustar a imagem sem distorcer*/
 
+}
+
+footer{
+    background-color: #626554c9;
 }
