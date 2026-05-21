@@ -43,7 +43,7 @@ nav a{
 nav a:hover{
     background-color: #CBB39C;/*alterar a cor de fundo quando mouse estiver em cima*/
     color: white; /*alterar a cor da fonte quando o mouse estiver em cima*/
-    font-size: 15px; /*alterar o tamanho da fonte quando o mouse estiver em cima*/
+    font-size: 18px; /*alterar o tamanho da fonte quando o mouse estiver em cima*/
 }
 
 
@@ -53,7 +53,7 @@ nav a:hover{
     width: 250px; /*tamanho do card*/
     margin: 15px; /*espaçamento externo*/
     padding: 10px; /*espaçamento interno*/
-    background-color: #62655494; /*cor de fundo do card*/
+    background-color: #626554b2; /*cor de fundo do card*/
     border-radius: 10px; /*altera a borda*/
 
 }
@@ -80,7 +80,7 @@ nav a:hover{
     background-position: center;
 }
 
-#personagens h2{
+#personagensprin h2{
     font-family: 'Special Elite';
     font-style: normal;
     font-weight: 400;
@@ -99,7 +99,7 @@ nav a:hover{
     width: 450px; /*tamanho do card*/
     margin: 15px; /*espaçamento externo*/
     padding: 10px; /*espaçamento interno*/
-    background-color: #62655494; /*cor de fundo do card*/
+    background-color: #626554b2; /*cor de fundo do card*/
     border-radius: 10px; 
 }
 
