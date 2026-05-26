@@ -21,7 +21,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    color: black;
+    color: #CBB39C;
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -120,6 +120,19 @@ body{
 
 .serafitas{
     background-color: #2E2923;
+}
+
+#personagens{
+    background-image: url(./imagens/banner.png);
+    
+    /*alterar o tamanho da imagem = background-size (cover ou contain) */
+    background-size: cover;
+
+    /*não repetir a imagem = background-repeat no-repeat*/
+    background-repeat: no-repeat;
+
+    /*mudar a posição da imagem = background-position */
+    background-position: center;
 }
 
 /*MEDIA QUERY*/
